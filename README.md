@@ -4,7 +4,7 @@
 <li>Now we have to send .txt files or excel files in the mail using python language.</li>
 <li><strong> smtplib </strong> module is used to make communication with a mail server to send mail.</li>
 <li><strong>from email.mime.multipart </strong> package is used to make MIME conventions for the multipart data or it can be created by a client as part of creating a new MimeMessage.We used MIME for enhanced message security.</li>
-<li>MIMEMultipart() method is used to  encodes ['From'], ['To'], and ['Subject'] in the Python documentation.</li>
+<li><strong>MIMEMultipart()</strong> method is used to  encodes ['From'], ['To'], and ['Subject'] in the Python documentation.</li>
 <li>Now we can attach the body of the email to the MIME message.</li>
 <li>Provide the name of the file that we want to send via mail.</li>
 <li>In <strong> open() </strong>method we have to provide the path of a file with permission of rb . Here 'r' means just for read the file, We can also open a file in <strong>“rb”</strong> (read binary), “w” (write), “a” (append), or “wb” (write binary). Note that if you use either “w” or “wb”, Python will overwrite the file.</li>
