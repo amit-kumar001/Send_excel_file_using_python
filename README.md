@@ -31,7 +31,7 @@ open sender google account -> select security option ->click on Less secure app 
 ### How to run this file  
  Since this is a python file, hence it can be run using following command
 
-python mail2.py
+python mail.py
 
-python3 mail2.py
+python3 mail.py
 
