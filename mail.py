@@ -5,8 +5,8 @@ from email.mime.base import MIMEBase #(_text[, _subtype[, _charset]])
 from email import encoders #is especially true for image/* and text/* type messages containing binary data.
 
 
-fromaddr = "saauuurishi@gmail.com"
-toaddr = "saauuurishi@gmail.com"
+fromaddr = "sender mail_id"
+toaddr = "receiver mail_id"
 
 
 msg = MIMEMultipart()# instance of MIMEMultipart
